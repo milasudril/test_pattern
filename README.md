@@ -1,6 +1,7 @@
 # Test pattern
 This is a test pattern to be used for testing image processing application, and/or imaging devices.
 
+![example](https://github.com/milasudril/test_pattern/blob/master/test_pattern.png?raw=true)
 
 ## Features
 
