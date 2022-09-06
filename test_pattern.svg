@@ -94,9 +94,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="215.99999"
-     inkscape:cy="362.49999"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="318.19805"
+     inkscape:cy="259.86174"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1172,17 +1172,17 @@
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3195-6"
-       width="13.758332"
+       width="12.7"
        height="52.916668"
-       x="191.55833"
+       x="192.08749"
        y="204.39581" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3195-0"
        width="79.375"
-       height="13.758334"
-       x="66.145836"
-       y="171.05832" />
+       height="12.7"
+       x="66.181915"
+       y="171.58749" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3195-0-6"
@@ -2723,8 +2723,8 @@
        id="path3722"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#008000;stroke:#ffffff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 105.83333,224.23957 v -3.30729"
+       style="fill:#008000;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 105.83333,223.97499 v -3.04271"
        id="path3724"
        inkscape:connector-curvature="0" />
     <text
