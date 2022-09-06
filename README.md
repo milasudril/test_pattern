@@ -1,18 +1,17 @@
 # Test pattern
 This is a test pattern to be used for testing image processing application, and/or imaging devices.
 
-## Generated image format
+
+## Generated images
 
 The included makefile encodes the test pattern in the following formats:
 
 | Channels | Sample type | Encoding      |
 |----------|-------------|---------------|
 | RGBA     | u16         | PNG           |
-|----------|-------------|---------------|
 | RGBA     | f16         | EXR           |
-|----------|-------------|---------------|
-| RGBA     | f32         | little-endian |
-|----------|-------------|---------------|
+| RGBA     | f32         | Little-Endian |
+
 
 ## Features
 
