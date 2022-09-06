@@ -25,5 +25,5 @@ PREFIX?="/usr"
 install: all
 	mkdir -p $(DESTDIR)$(PREFIX)/share/test_pattern
 	cp __targets/test_pattern.png $(DESTDIR)$(PREFIX)/share/test_pattern/test_pattern.png
-	cp __targets/test_pattern.png $(DESTDIR)$(PREFIX)/share/test_pattern/test_pattern.exr
-	cp __targets/test_pattern.png $(DESTDIR)$(PREFIX)/share/test_pattern/test_pattern.rgba
+	cp __targets/test_pattern.exr $(DESTDIR)$(PREFIX)/share/test_pattern/test_pattern.exr
+	cp __targets/test_pattern.rgba $(DESTDIR)$(PREFIX)/share/test_pattern/test_pattern.rgba
