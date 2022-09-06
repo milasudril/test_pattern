@@ -1,7 +1,18 @@
 # Test pattern
 This is a test pattern to be used for testing image processing application, and/or imaging devices.
 
-![example](https://github.com/milasudril/test_pattern/blob/master/test_pattern.png?raw=true)
+## Generated image format
+
+The included makefile encodes the test pattern in the following formats:
+
+| Channels | Sample type | Encoding      |
+|----------|-------------|---------------|
+| RGBA     | u16         | PNG           |
+|----------|-------------|---------------|
+| RGBA     | f16         | EXR           |
+|----------|-------------|---------------|
+| RGBA     | f32         | little-endian |
+|----------|-------------|---------------|
 
 ## Features
 
@@ -54,5 +65,8 @@ Left and right is indicated by text.
 
 ## Bugs
 
-The color gradients has some banding visible effect. This is because Inkscape has no HDR support,
-and also forces non-linear workflow, probably due to the SVG standard.
+* The color gradients has some banding visible effect. This is because Inkscape has no true HDR
+support.
+
+* When viewing the raw SVG file, colors are wrong and to dark. This is because SVG files them selfs
+cannot be in linear colorspace.
