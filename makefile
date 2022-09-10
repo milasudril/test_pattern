@@ -1,13 +1,13 @@
 all: __targets/test_pattern.rgba __targets/test_pattern.exr __targets/test_pattern.png
 
 __targets/test_pattern.png: __targets/test_pattern_raw.png
-	convert __targets/test_pattern_raw.png -set colorspace RGB -depth 16 PNG64:__targets/test_pattern.png
+	convert -set colorspace RGB __targets/test_pattern_raw.png -depth 16 PNG64:__targets/test_pattern.png
 
 __targets/test_pattern.exr: __targets/test_pattern_raw.png
-	convert __targets/test_pattern_raw.png -set colorspace RGB -depth 32 __targets/test_pattern.exr
+	convert -set colorspace RGB __targets/test_pattern_raw.png -depth 32 __targets/test_pattern.exr
 
 __targets/test_pattern.rgba: __targets/test_pattern_raw.png
-	convert __targets/test_pattern_raw.png -set colorspace RGB -depth 32 -define quantum:format=floating-point __targets/test_pattern.rgba
+	convert -set colorspace RGB __targets/test_pattern_raw.png -depth 32 -define quantum:format=floating-point __targets/test_pattern.rgba
 
 __targets/test_pattern_raw.png: __targets test_pattern.svg
 	inkscape -o __targets/test_pattern_raw.png -d 192 --export-png-color-mode=RGBA_16 test_pattern.svg
