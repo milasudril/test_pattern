@@ -13,13 +13,14 @@ The included makefile encodes the test pattern in the following formats:
 | RGBA     | f16         | EXR                                           |
 | RGBA     | f32         | Header-less little-endian with no compression |
 
-All images should be in linear color-space ImageMagick/ImageMagick6@59953e741c004f84b4a164d430a1be5ca3db2d44
+All images should be in linear color-space
 
 
 ## Build dependencies
 
 In order to generate the rasterized images, you need Inkscape and ImageMagick. In order for the non-
 exr versions to be correct you need to make sure that your ImageMagick includes the commit
+https://github.com/ImageMagick/ImageMagick6/commit/59953e741c004f84b4a164d430a1be5ca3db2d44
 
 
 ## Features
